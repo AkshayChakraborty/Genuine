@@ -1,0 +1,64 @@
+{
+  "about": [
+    {
+      "title": "Genuine is an innovative educational website committed to fostering authentic learning experiences.",
+      "description": "we are trying to revolutionize education by providing an immersive, interactive, and personalized learning experience that fuels students' passion for knowledge.",
+      "feature1": "Personalized Learning: Tailored paths for individualized, self-paced learning.",
+      "feature2": "Interactive Resources: Engaging videos, quizzes, simulations, and games.",
+      "feature3": "Collaborative Community: Connect with peers, discuss, and collaborate on group projects.",
+      "conclusion": "With its personalized approach, interactive resources, and collaborative community, Genuine redefines the way we learn, inspiring a lifelong love for knowledge and fostering a generation of curious, empowered individuals.",
+      "id": 1
+    }
+  ],
+  "contact": [
+    {
+      "name": "Akshay Chakraborty",
+      "email": "akshaychakraborty@gmail.com",
+      "subject": "123456",
+      "message": "kolkata",
+      "id": 1
+    },
+    {
+      "name": "Akshay Chakraborty",
+      "email": "akshaychakraborty@gmail.com",
+      "phone": "123456",
+      "subject": "ssjsj",
+      "message": "akshay",
+      "id": 2
+    },
+    {
+      "name": "Akshay Chakraborty",
+      "email": "akshaychakraborty@gmail.com",
+      "phone": "123456",
+      "subject": "akshay",
+      "message": "aa",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "name": "William Anderson",
+      "email": "william@gmail.com",
+      "phone": "6563782937",
+      "Image_url": "http://localhost:3000/assets/img/trainers/trainer-1.jpg",
+      "details":"A seasoned language instructor at Genuine, creating an immersive learning environment for students to develop fluency and cultural appreciation.",
+      "id": 1
+    },
+    {
+      "name": "Srija Mitra",
+      "email": "srija@gmail.com",
+      "phone": "7863782937",
+      "Image_url": "http://localhost:3000/assets/img/trainers/trainer-2.jpg",
+      "details":"A STEM education expert with a passion for inspiring young minds in science and technology at Genuine.Their guidence are very amazing",
+      "id": 2
+    },
+    {
+      "name": "Binit Sharma",
+      "email": "binit@gmail.com",
+      "phone": "8963782937",
+      "Image_url": "http://localhost:3000/assets/img/trainers/trainer-3.jpg",
+      "details":"A creative arts mentor at Genuine, empowering aspiring artists to express their unique voices and embark on a transformative artistic journey.",
+      "id": 3
+    }
+  ]
+}

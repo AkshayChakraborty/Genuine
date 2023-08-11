@@ -1,0 +1,15 @@
+#rightbox {
+
+    border-radius: 0px;
+    float: right;
+    position: relative;
+    margin-left: 50px;
+    /* opacity: 0.5;  */
+    background: rgb(255, 255, 255);
+    width: 25%;
+    height: 580px;
+  }
+.col-lg-11{
+  
+}
+  
