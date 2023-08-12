@@ -8,7 +8,7 @@ const UserDashboard = () => {
   return (
       <>
       <div style={{ marginTop: '55px',marginBottom:'45px', paddingTop: '53px'}} className="container dashboard">
-                {/* <div className="row">  */}
+                
                 <div style={{display:'flex',justifyContent:'center',alignItems:'center'}} className="card-wrap">                  
                     <div className="card mb-3" style={{ maxWidth: '640px'}}>
                         <div className="row no-gutters">

@@ -30,7 +30,6 @@ const Head = () => {
               </NavLink>
             </h1>
             <NavLink to="/" className="logo me-auto">
-              {/* <img src="assets/img/logo.png" alt="" className="img-fluid" /> */}
             </NavLink>
             <nav className="navbar navbar-expand-lg navbar-light">
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
