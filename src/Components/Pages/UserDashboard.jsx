@@ -13,7 +13,7 @@ const UserDashboard = () => {
                     <div className="card mb-3" style={{ maxWidth: '640px'}}>
                         <div className="row no-gutters">
                             <div className="col-md-4">
-                                <img style={{width:'100%'}} src="assets/img/testimonials/testimonials-2.jpg" alt="..." />
+                                <img style={{width:'100%'}} src="assets/img/testimonials/testimonials-5.jpg" alt="..." />
 
                             </div>
                             <div className="col-md-8 card-bg">
