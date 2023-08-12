@@ -9,7 +9,7 @@ import CardSkeleton from './CardSkeleton'
 const Courses = () => {
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true)
-  const [intialvlaue,setIntialvlaue] = useState(4);
+  const [intialvlaue,setIntialvlaue] = useState(6);
 
   const placeholderImage = "http://via.placeholder.com/640x360";
 
@@ -27,6 +27,9 @@ const Courses = () => {
     getNews()
   }, [])
 
+  const loadMore= ()=>{
+    setIntialvlaue(intialvlaue+6)
+  }
 
   return (
     <>
@@ -54,7 +57,7 @@ const Courses = () => {
                     <CardSkeleton/>
                     </>
                     :
-                    news?.slice(0, 6)?.map((newsData, index) => {
+                    news?.slice(0, intialvlaue)?.map((newsData, index) => {
                       return (
                         <>
                           <div className="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
@@ -92,7 +95,10 @@ const Courses = () => {
               </div>
             </div>
           </section>
-          <button onClick={() =>setIntialvlaue(intialvlaue+6)} style={{marginLeft:"530px",boxShadow:" 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",width:"233px",}} type="buttonn" class="btn btn-danger btn-rounded">Load More</button>
+          {
+            news?.length >intialvlaue ?(<button onClick={loadMore} style={{marginLeft:"530px",boxShadow:" 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",width:"233px",}} type="buttonn" class="btn btn-danger btn-rounded">Load More</button>):null
+          }
+          
         </div>
       {/* </Layout> */}
     </>
